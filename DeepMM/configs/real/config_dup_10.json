@@ -1,0 +1,58 @@
+{
+    "training": {
+        "optimizer": "adam", 
+        "batch_size": 128, 
+        "lrate": 0.001
+    }, 
+    "management": {
+        "max_epoch_num": 100, 
+        "verbose": false, 
+        "monitor_loss": 10000, 
+        "monitor_accuracy": 1, 
+        "accuracy_estimate_num": 1300, 
+        "sample_num": 0
+    }, 
+    "data": {
+        "load_dir": false, 
+        "log_folder": "logs/", 
+        "train": {
+            "src_tim2": "train.time2", 
+            "src_loc": "train.block", 
+            "trg_seg": "train.seg", 
+            "src_tim1": "train.time1"
+        }, 
+        "save_dir": "models/",
+        "valid": {
+            "src_tim2": "valid.time2", 
+            "src_loc": "valid.block", 
+            "trg_seg": "valid.seg", 
+            "src_tim1": "valid.time1"
+        }, 
+        "test": {
+            "src_tim2": "test.time2",
+            "src_loc": "test.block",
+            "trg_seg": "test.seg",
+            "src_tim1": "test.time1"
+        },
+        "folder": "../../data/real/dup-10_sl-100/",
+        "sample_folder": "samples/"
+    }, 
+    "model": {
+        "src_hidden_dim": 512, 
+        "dim_loc_src": 256, 
+        "dim_tim1_src": 16, 
+        "dim_tim2_1_src": 16, 
+        "max_src_length": 40, 
+        "dim_tim2_2_src": 32, 
+        "n_layers_src": 2, 
+        "seq2seq": "attention", 
+        "max_trg_length": 54, 
+        "decode": "greedy", 
+        "dim_seg_trg": 256, 
+        "bidirectional": true, 
+        "trg_hidden_dim": 512, 
+        "n_layers_trg": 2, 
+        "time_encoding": "NoEncoding", 
+        "dropout": 0.5
+    }
+}
