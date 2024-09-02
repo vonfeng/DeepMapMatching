@@ -1,0 +1,4 @@
+train trace number: 0
+train trace duplicate number: 0
+validation trace number:  1352
+test trace number:  1373
