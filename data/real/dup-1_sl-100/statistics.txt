@@ -1,0 +1,24 @@
+train trace number: 8548
+train trace duplicate number: 1
+validation trace number:  1352
+test trace number:  1373
+average block number of a train trace:   20.781820308844175
+average segment number of a train trace: 26.857627515208236
+trace num: 8548, block   trace length at percentage 10: 7 
+trace num: 8548, segment trace length at percentage 10: 10 
+trace num: 8548, block   trace length at percentage 20: 9 
+trace num: 8548, segment trace length at percentage 20: 13 
+trace num: 8548, block   trace length at percentage 30: 11 
+trace num: 8548, segment trace length at percentage 30: 16 
+trace num: 8548, block   trace length at percentage 40: 14 
+trace num: 8548, segment trace length at percentage 40: 18 
+trace num: 8548, block   trace length at percentage 50: 16 
+trace num: 8548, segment trace length at percentage 50: 21 
+trace num: 8548, block   trace length at percentage 60: 19 
+trace num: 8548, segment trace length at percentage 60: 24 
+trace num: 8548, block   trace length at percentage 70: 23 
+trace num: 8548, segment trace length at percentage 70: 29 
+trace num: 8548, block   trace length at percentage 80: 29 
+trace num: 8548, segment trace length at percentage 80: 37 
+trace num: 8548, block   trace length at percentage 90: 39 
+trace num: 8548, segment trace length at percentage 90: 50 
